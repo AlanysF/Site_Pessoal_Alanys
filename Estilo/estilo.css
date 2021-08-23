@@ -1,0 +1,606 @@
+/* RESET /
+/ (*) reepresenta qualquer tipo de elemento */
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family:'Arial', sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    list-style: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.cabecalho {
+    width: 100%;;
+    height: 100px;
+    background-color: #eb9289;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.384);
+}
+
+.cabecalho nav a h1 {
+    font-size: 0;
+}
+
+.cabecalho nav a img:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 40%;
+    transition: all .3s linear;
+}
+
+.logo {
+    width: 95px;
+    height: 85px;
+    position: absolute;
+    left: 35px;
+    top: 10px;
+    float: left;
+    border-radius: 10px;
+}
+
+#usuario {
+    float: right;
+    position: absolute;
+    right: 0%;
+}
+
+#usuario li {
+    float: left;
+    margin-top: 25px;
+    margin-right: 50px;
+}
+
+
+.fa, .fas {
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.fa, .fas:hover {
+    color: #070707;
+   text-shadow: 1px 1px #FFF;
+}
+
+.menu a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 1.2em;
+    color: #ffffff;
+    float: left;
+    padding: 29px 10px 0px 30px;
+}
+
+.menu li {
+    position: relative;
+    margin-left: 120px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.menu a:hover {
+   color: #070707;
+   text-shadow: 1px 1px #FFF;
+}
+
+/*Conteúdo*/
+#bib{
+    margin-bottom: 20px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.6em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#subbib{
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+.categoriasa{
+    width: 25%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom:5px;
+    display: block;
+    height: auto;
+}
+
+.categoriasb{
+    width: 25%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    height: auto;
+}
+.categoriasc{
+    width: 25%;
+    float: left;
+    margin-left: 160px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* NEWSLETTER */
+
+.newsletter {
+    width: 100%;
+    float: left;
+    background-color:#e0c7c7;
+    padding: 30px 8%;
+}
+
+.newsletter h3 {
+    font-size: 1.8em;
+    color: black;
+    font-family:fantasy;
+    font-weight: lighter;
+    text-align: left;
+    border-radius: 25px;
+}
+
+.newsletter p {
+    color: white;
+    font-weight:500;
+    font-size: 1.2em;
+}
+
+.newsletter form {
+    width: 100%;
+    float: left;
+    margin-top: 1px;
+}
+
+.newsletter input[type=email], input[type=text]{
+    width: 30%;
+    margin-right: 3%;
+    padding: 15px 10px;
+    border-bottom: 1px solid white;
+    border-radius: 5px;
+    background-color: initial;
+    color: white;
+}
+
+.newsletter input:focus{
+    border: 1px solid white;
+    transition: all .5s ease-in-out;
+}
+
+.newsletter input::placeholder{
+    color: black;
+}
+
+.newsletter button {
+    width: 17%;
+    background-color: white;
+    padding: 15px 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: initial;
+    color: black;
+    font-weight: 600;
+    transition: all .3s linear;
+}
+
+ /* /RODAPE/ */
+.rodape{
+    width: 100%;
+    float: left;
+    background-color: #eb9289;
+    padding: 20px 8%;
+}
+
+.social-links {
+    width: 50%;
+    float: left;
+    color: white;
+}
+
+.social-links a {
+    margin-top:15px;
+    float: left;
+    padding: 0 8px;
+    color: white;
+}
+
+.social-links .fa-facebook:hover{
+    color: #3b5998;
+}
+
+.social-links .fa-twitter:hover{
+    color: #298dff;
+}
+
+.social-links .fa-instagram:hover{
+    background-image: linear-gradient(to bottom, #E8000D, #BE008D);
+}
+
+.social-links .fa-youtube:hover{
+    color: #CC0000;
+}
+
+.social-links .fa-linkedin:hover{
+    color: #0270AD;
+}
+
+/*Envie seu exemplar*/
+
+.p1{
+    margin-top:15px;
+    color:#fff;
+    float: left;
+    text-align: left;
+}
+
+.p2{
+    margin-top:15px;
+    color:#fff;
+    float: right;
+    text-align: right;
+}
+
+.envieaqui{
+    background-image: url('../imagens/book.jpg'); 
+    background-size: 100%;
+    border-radius: 20px;
+    height: 150px;   
+    width: 90%;
+    float:left;
+    padding: 10px 8%;
+    margin: 15px 65px;
+    opacity: 93%;
+}
+
+.envieaqui  h3{
+    padding-top: 20px;
+    font-size: 1.9em;
+    color: white;
+    font-weight: 700;
+    text-align: left;
+    border-radius: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.envieaqui  p{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.envieaqui button{
+    width: 17%;
+    background-color: white;
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    float: right;
+}
+
+.envieaqui button:hover {
+    background-color: initial;
+    color: white;
+    transition: all .3s linear;
+}
+
+.envieaqui a{
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+}
+
+.envieaqui a:hover{
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+}
+
+/*Fomulário fale conosco*/
+.falec input[type=text1], input[type=email1], input[type=tel], input[type=number], select, textarea{
+    width: 95%;
+    padding: 10px;
+    border: 1px solid initial;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  .falec label {
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 10px 5px 5px 10px;
+    display: inline-block;
+  }
+  
+  .falec input[type=submit] {
+    background-color: #eb9289;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  .falec input[type=submit]:hover {
+    background-color:white;
+    color: #eb9289;
+    border: 1px solid #eb9289;
+    font-weight: 600;
+    transition: all .3s linear;
+  }
+
+  .container{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding-left: 20px;
+    width: 50%;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+/*contato*/
+
+.contato {
+    width: 100%;
+    float: left;
+    margin-left: 20%;
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+}
+
+.contato a{
+    float: left;
+    color: rgb(0, 0, 0);
+}
+
+.contato .fa-whatsapp:hover{
+    color: #34af23;
+}
+
+.contato .fa-envelope:hover{
+    color: #db4a39 ;
+}
+
+.contato a{
+    text-decoration: none;
+    font-size: 1.3em;
+    text-align: center;
+    margin-left: 12px;
+}
+
+.contato a:link{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    max-width: max-content;
+}
+
+/*PRINCIPAL*/
+.principal{
+    width:100%;
+    float: left;
+    padding: 6px 8%;
+}
+
+.quemsomos{
+    background-image: url('../imagens/writer.jpg'); 
+    background-size: 100%;
+    border-radius: 0px;
+    height: 335px;   
+    width: 100%;
+    float:left;
+    padding: 10px 8%;
+    margin-bottom: 15px;
+}
+#tituloqs{
+    margin-bottom: 20px;
+    font-family:fantasy;
+    font-size: 2.6em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#slogan{
+    font-size: 1.5em;
+    text-align: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+#texto1{
+    font-size: 1.5em;
+    text-align: justify;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+
+/*VIDEOS*/
+#video1{
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+/*VISITE A BIBLIOTECA*/
+.visitebb{
+    background-color: pink;
+    background-image: url('../'); 
+    background-size: 100%;
+    border-radius: 20px;
+    border: 1px solid black;
+    height: 90px;   
+    width: 90%;
+    float:left;
+    padding: 5px 8%;
+    margin: 15px 65px;
+    opacity: 93%;
+}
+
+.visitebb p{
+    color: black;
+    margin-bottom: 20px;
+    padding-top: 22px;
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.visitebb button{
+    width: 17%;
+    background-color: white;
+    padding:5px 5px;
+    margin-bottom: 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    float: right;
+}
+
+.visitebb button:hover {
+    background-color: initial;
+    border: 1px solid black;
+    font-weight: 600;
+    transition: all .3s linear;
+} 
+
+.visitebb a{
+    text-decoration: none;
+    color:black;
+    background-color: initial;
+    font-weight: lighter;
+}
+
+.visitebb a:hover{
+    background-color: initial;
+    color: white;
+    font-weight: bold;
+    transition: all .3s linear;
+}
+
+/*LIVROS*/
+.img1{
+ width:260px;
+ height:350px;
+ margin-left: 7px;
+ margin-bottom: 20px;
+}
+
+.infos{
+text-align: justify;
+float:left;
+font-size:1.2em;
+margin-left: 20px;
+padding-right: 0;
+}
+
+.infos2{
+    text-align: justify;
+    float:right;
+    font-size:1.2em;
+    margin-right: 38px;
+}
+
+.linha1{
+color:#BE008D;
+height: 10%;
+}
+
+
+.livros a{
+    text-decoration: none;
+    color:black;
+    background-color: #e0c7c7;
+    border: 1px solid black;
+    border-radius: 5px;;
+    font-size: 20px;
+    padding: 8px;
+    font-weight: lighter;
+}
+
+.livros a:hover{
+    background-color: initial;
+    color: black;
+    font-weight: bold;
+    transition: all .3s linear;
+}
+
+/*AUTORES*/
+.imgs{
+    width:250px;
+    height:250px;
+    margin-left: 7px;
+    margin-bottom: 20px;
+   }
+
+/*POEMAS*/
+.img0{
+    width:270px;
+    height:400px;
+    margin-left: 12px;
+    margin-right: 2px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    border-radius: 120px;
+ }
+.img4{
+    width:270px;
+    height:400px;
+    margin-left: 30px;
+    margin-right: 2px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    border-radius: 120px;
+ }
+
+ .infos3{
+    text-align: justify;
+    float:left;
+    font-size:1.1em;
+    margin-left: 20px;
+    padding-right: 0;
+    }
+    
+.infos4{
+    text-align: justify;
+    float:right;
+    font-size: 1.1em;
+    margin-right: 4px;
+}
